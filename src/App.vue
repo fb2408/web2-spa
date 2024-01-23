@@ -1,26 +1,26 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyAuRva9OltSC3DfVD0xwb9cYCnCtnXbCTo",
-  authDomain: "web2-spa-a378d.firebaseapp.com",
-  projectId: "web2-spa-a378d",
-  storageBucket: "web2-spa-a378d.appspot.com",
-  messagingSenderId: "159734722048",
-  appId: "1:159734722048:web:046f25ecd21abf530af2e5",
-  measurementId: "G-CRYKDW2TJJ"
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyAuRva9OltSC3DfVD0xwb9cYCnCtnXbCTo",
+//   authDomain: "web2-spa-a378d.firebaseapp.com",
+//   projectId: "web2-spa-a378d",
+//   storageBucket: "web2-spa-a378d.appspot.com",
+//   messagingSenderId: "159734722048",
+//   appId: "1:159734722048:web:046f25ecd21abf530af2e5",
+//   measurementId: "G-CRYKDW2TJJ"
+// };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+// const app = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(app);
 </script>
 
 <template>
