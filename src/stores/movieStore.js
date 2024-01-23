@@ -6,7 +6,7 @@ export const useMovieStore = defineStore("moviesStore", {
       {
         id: 1,
         title: "The Shawshank Redemption",
-        image: "src/assets/shawnshankRedemption.jpeg",
+        image: "assets/shawnshankRedemption.jpeg",
         director: "Frank Darabont",
         topCast: "Tim Robbins",
         description: "Bjezanje iz zatvora.",
@@ -15,7 +15,7 @@ export const useMovieStore = defineStore("moviesStore", {
       {
         id: 2,
         title: "The Godfather",
-        image: "src/assets/godfather.webp",
+        image: "assets/godfather.webp",
         director: "Francis Ford Coppola",
         topCast: "Marlon Brando",
         description: "Talijanska mafija.",
@@ -24,7 +24,7 @@ export const useMovieStore = defineStore("moviesStore", {
       {
         id: 3,
         title: "The dark knight",
-        image: "src/assets/thedarkknight.jpeg",
+        image: "assets/thedarkknight.jpeg",
         director: "Christopher Nolan",
         topCast: "Christian Bale",
         description: "Batman.",
@@ -33,7 +33,7 @@ export const useMovieStore = defineStore("moviesStore", {
       {
         id: 4,
         title: "12 Angry Men",
-        image: "src/assets/12angrymen.jpeg",
+        image: "assets/12angrymen.jpeg",
         director: "Sidney Lumet",
         topCast: "Henry Fonda",
         description: "Ubojstvo u New Yorku.",
@@ -42,7 +42,7 @@ export const useMovieStore = defineStore("moviesStore", {
       {
         id: 5,
         title: "Pulp Fiction",
-        image: "src/assets/pulpfiction.avif",
+        image: "assets/pulpfiction.avif",
         director: "Quentin Tarantino",
         topCast: "John Travolta",
         description: "Dobar film.",
@@ -51,7 +51,7 @@ export const useMovieStore = defineStore("moviesStore", {
       {
         id: 6,
         title: "Forrest Gump",
-        image: "src/assets/forrestgump.jpeg",
+        image: "assets/forrestgump.jpeg",
         director: "Robert Zemeckis",
         topCast: "Tom Hanks",
         description: "Ikonski film.",
@@ -60,7 +60,7 @@ export const useMovieStore = defineStore("moviesStore", {
       {
         id: 7,
         title: "Fight club",
-        image: "src/assets/fightclub.jpeg",
+        image: "assets/fightclub.jpeg",
         director: "David Fincher",
         topCast: "Brad Pitt",
         description: "Psiholoski film.",
