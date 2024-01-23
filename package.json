@@ -10,6 +10,7 @@
     "serve": "npm run lint & npm run dev"
   },
   "dependencies": {
+    "firebase": "^10.7.2",
     "pinia": "^2.0.28",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"

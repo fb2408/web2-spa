@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import AdsView from "../views/AdsView.vue";
+import MoviesView from "../views/MoviesView.vue";
 import NotFound from "../views/NotFound.vue";
 
 const router = createRouter({
@@ -12,12 +12,12 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/ads",
-      name: "Ads",
+      path: "/movies",
+      name: "Movies",
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: AdsView,
+      component: MoviesView,
     },
     {
       path: "/:catchAll(.*)",
